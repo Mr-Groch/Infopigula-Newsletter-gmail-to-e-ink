@@ -1,15 +1,15 @@
 # coding=utf-8
 
 # Adres e-mail urządzenia (Send-to-Pocketbook lub Send-to-Kindle)
-E_INK_DEVICE_EMAIL = "mr_groch-era-color@pbsync.com"
+E_INK_DEVICE_EMAIL = "my_e-ink_device@pbsync.com"
 
 # Nazwa etykiety, po której należy szukać nieprzeczytanych newsletterów Infopiguły do wysyłki
 GMAIL_INFOPIGULA_LABEL = "Infopiguła"
 # Nazwa nadawcy maila
-GMAIL_SENDER = "grocholski@gmail.com"
+GMAIL_SENDER = "Jan Kowalski"
 
 # Czy generować epub za pomocą ebooklib czy pypub3?
-USE_EBOOKLIB = False
+USE_EBOOKLIB = True
 
 from simplegmail import Gmail
 from unidecode import unidecode
