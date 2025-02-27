@@ -3,7 +3,7 @@ Generowanie pliku ePub z newslettera Infopiguły i wysyłka go na czytnik (Pocke
 
 Wykorzystuje:
 - [Python 3](https://www.python.org/)
-- [simplegmail](https://github.com/jeremyephron/simplegmail) - **koniecznie musisz zapoznać się z instrukcją jak podpiąć się pod swojego gmaila!**
+- [simplegmail](https://github.com/jeremyephron/simplegmail) - **Koniecznie musisz zapoznać się z instrukcją jak podpiąć się pod swojego gmaila! Zmień także stan publikacji OAuth z testowanie na produkcja, by uniknąć reautoryzacji co 7 dni**
 - [ebooklib](https://github.com/aerkalov/ebooklib) lub [pypub3](https://github.com/imgurbot12/pypub) - do wyboru, można sobie porównać generowany ePub i wybrać bardziej nam odpowiadający
 - [Pillow](https://python-pillow.github.io/) - do generowania okładki
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - do podziału na rozdziały
