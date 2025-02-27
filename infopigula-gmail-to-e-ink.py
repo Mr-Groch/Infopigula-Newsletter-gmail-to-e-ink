@@ -28,7 +28,7 @@ from bs4 import BeautifulSoup
 import copy
 
 # Szukanie nieprzeczytanych maili z ustaloną etykietą newslettera
-gmail = Gmail(noauth_local_webserver=True)
+gmail = Gmail()
 labels = gmail.list_labels()
 infopigula_label = list(filter(lambda x: x.name == GMAIL_INFOPIGULA_LABEL, labels))[0]
 messages = gmail.get_unread_inbox(labels=[infopigula_label])
